@@ -79,3 +79,98 @@ console.log("Hola Mundo");
 
 
 */
+
+/* Arrays
+
+    // Introducir valores al final de un array
+    push()
+
+    // Introducir valores al inicio de un array
+    unshift()
+
+    // Eliminar valores al final de un array
+    pop()
+
+    // Introducir valores al inicio de un array
+    shift()
+
+    // Introducir, eliminar o agregar valores al array
+    // Eliminar
+    splice(posición, cantidad)
+    // Agregar
+    splice(posición, 0, valores)
+    // Modificar
+    splice(posición, 1, valores)
+
+    // Concatenar listas
+    concat(lista)
+    [...lista1, ...lista2]
+
+    // Obtener una porcion de una lista a partir de otra
+    slice(inicio, fin)
+
+    // Recorrer una lista
+    lista.forEach(valor => {})
+
+    // Buscar un valor en una lista
+    lista.find(valor => valor === 90)
+    const { edad } = lista.find(obj => obj.edad === 90)
+
+    // Metodos avanzados
+    // Crear un array nuevo a partir de otro
+    const array2 = lista.map((obj, indice) => obj.edad === 90)
+    const array2 = lista.map((obj, indice) => `${obj.edad} 90`)
+    
+    // Crear un array a partir de otro
+    lista.filter(obj => obj.edad > 30)
+    lista.filter(obj => obj.nombre !== "Miguel")
+
+    // Obtener un valor a partir de una lista (Suma de todas las edades)
+    lista.reduce( (valorAcumulado, valorActual, indice, arregloOriginal) => valorAcumulado + valorActual )
+
+    // Ordenar listas ASC
+    lista.sort((a, b) => {
+        if ( a < b ) return -1;
+        else if ( a > b ) return +1;
+        else return 0;
+    })
+    // Ordenar listas DESC
+    lista.sort((a, b) => {
+        if ( a < b ) return +1;
+        else if ( a > b ) return -1;
+        else return 0;
+    })
+
+    // Ordenar listas ASC
+    lista.sort((a, b) => a - b)
+    // Ordenar listas DESC
+    lista.sort((a, b) => b - a)
+
+    // Ordenar Objetos
+    lista.sort((a, b)) => a.edad - b.edad)
+
+    // Comparar todos los valores de una lista cumplan la condición
+    lista.every(valor => typeof valor === "number")
+    lista.every(valor => valor > 0)
+
+    // Comparar 2 listas
+    const com = ( array1, array2 ) => {
+        if(array1.length !== array2.length) return false;
+        const res = array1.every( ( valor, i ) => valor === array2[i] );
+        return res;
+    }
+
+    // true si alguno de los elemetos de una lista cumplen x condición
+    lista.some( valor => valor < 0)
+    lista.some( valor => valor ===  9)
+    lista.some( persona => persona.nombre === "Miguel")
+
+    // Obtener una lista a partir de un objeto iterable
+    const lista = Array.from(str);
+
+    // Obtener indices de un array 
+    const llaves = lista.keys()
+    const arLlaves = Array.from(llaves)
+
+
+*/
