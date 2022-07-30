@@ -26,10 +26,3 @@ let directores = peliculas.map((pelicula) => pelicula.director);
 let titulos = peliculas.map((pelicula) => pelicula.titulo);
 let peliculasConcat = titulos.concat(directores);
 let peliculasPropagacion = [...titulos, ...directores];
-
-console.log(peliculas);
-console.log(despues2010);
-console.log(directores);
-console.log(titulos);
-console.log(peliculasConcat);
-console.log(peliculasPropagacion);
