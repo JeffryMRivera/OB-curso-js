@@ -173,4 +173,31 @@ console.log("Hola Mundo");
     const arLlaves = Array.from(llaves)
 
 
+    // Set -> Lista de valores unicos
+    let lista = [1 ,2, 3,4, 4]
+    let set = new Set(lista); 
+    add(valor)
+    delete(valor)
+    clear()
+    has("valor")
+    .size
+    .values() -> lista de valores iterables
 */
+
+/* Objetos
+    Duplicar objetos
+    const obj2 = { ...obj }
+
+    Comparar fechas
+    > con date
+    fecha1.getTime() == fecha2.getTime()
+
+    getDate()
+    getMonth()+1
+    getFullYear()
+    
+    toLocaleDateString("es-CO")
+*/
+
+let fecha = new Date();
+console.log(fecha.toLocaleDateString("es-CO"));
