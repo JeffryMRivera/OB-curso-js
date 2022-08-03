@@ -25,6 +25,6 @@ let datos = [
   },
 ];
 
-console.log(datos_personales);
-console.log(edad);
-console.log(datos);
+const datosOrdenados = datos.sort((a, b) => b.edad - a.edad);
+
+console.log(datosOrdenados);
