@@ -17,3 +17,7 @@
 {"level":"debug","message":"Error: Este es un error de nivel:  debug","service":"user-service"}
 {"level":"warn","message":"Error: Este es un error de nivel:  warn","service":"user-service"}
 {"level":"error","message":"Error: Este es un error de nivel:  error","service":"user-service"}
+{"level":"info","message":"Error: Este es un error de nivel:  info","service":"user-service"}
+{"level":"debug","message":"Error: Este es un error de nivel:  debug","service":"user-service"}
+{"level":"warn","message":"Error: Este es un error de nivel:  warn","service":"user-service"}
+{"level":"error","message":"Error: Este es un error de nivel:  error","service":"user-service"}

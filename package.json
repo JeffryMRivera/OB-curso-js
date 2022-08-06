@@ -12,7 +12,5 @@
   "keywords": [],
   "author": "Arnold Mosquera",
   "license": "ISC",
-  "dependencies": {
-    "winston": "^3.8.1"
-  }
+  "dependencies": {}
 }
