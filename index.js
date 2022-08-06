@@ -209,9 +209,29 @@
     toLocaleDateString("es-CO")
 */
 
-/* Winston 
-
+/* Librerias
+    Winston 
+    Axios
+    React
+    Vue
+    three
+    chalk
 */
+
+/* Axios
+const axios = require("axios");
+
+axios
+  .get("https://pokeapi.co/api/v2/pokemon/jeff")
+  .then((response) => {
+    console.log(response.data.abilities);
+  }) // Success
+  .catch((response) => {
+    console.log(response);
+  }) // Error
+  .then(() => {}); // Finaly
+
+  */
 
 let fecha = new Date();
 console.log(fecha.toLocaleDateString("es-CO"));
