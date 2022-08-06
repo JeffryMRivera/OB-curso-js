@@ -1,0 +1,4 @@
+{"level":"error","message":"Hola Mundo","service":"user-service"}
+{"level":"error","message":"Hola Mundo","service":"user-service"}
+{"level":"error","message":"Error: Este es un error de nivel:  error","service":"user-service"}
+{"level":"error","message":"Error: Este es un error de nivel:  error","service":"user-service"}
