@@ -15,8 +15,12 @@ const logger = winston.createLogger({
   ],
 });
 
-try {
+const funcion = () => {
   throw new Error("Este es un error de nivel: ");
+};
+
+try {
+  funcion();
 } catch (err) {
   logger.info(`${err} info`);
   logger.debug(`${err} debug`);
