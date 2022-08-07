@@ -220,6 +220,9 @@
     http-server
     Typeit
     Jquery
+    momment
+    bootstrap
+    Chakra - 
 */
 
 /* Axios
