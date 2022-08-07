@@ -1,8 +1,8 @@
-let total = 1;
-let cantidad = 10;
+let total = 1
+let cantidad = 10
 while (true) {
-  total = total * cantidad;
-  cantidad--;
-  if (cantidad === 1) break;
+	total = total * cantidad
+	cantidad--
+	if (cantidad === 1) break
 }
-console.log(total);
+console.log(total)

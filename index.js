@@ -215,7 +215,11 @@
     React
     Vue
     three
+    eslint
     chalk
+    http-server
+    Typeit
+    Jquery
 */
 
 /* Axios
